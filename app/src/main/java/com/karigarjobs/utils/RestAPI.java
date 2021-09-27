@@ -29,8 +29,6 @@ public class RestAPI {
     public static final String REST_APIVER = "4.6/";
     public static final String REST_USER = REST_APIVER + "user/dev";
     public static final String REST_PROV = REST_APIVER + "provider/dev";
-    //public static final String REST_BASE_URL = "http://10.0.2.2:3000/portal/admin/server/";//for emulator
-    //public static final String REST_BASE_URL = "http://192.168.0.107:3000/portal/admin/server/";//"http://172.20.10.3:3000"
     public static final String REST_BASE_URL = "http://www.karigarjobs.com/portal/admin/server/";
     private static final String TAG = RestAPI.class.getName();
     private static final boolean isLoggingEnabled = false;
