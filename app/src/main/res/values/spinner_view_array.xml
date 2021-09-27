@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="work_type">
+        <item>@string/title_fulltime</item>
+        <item>@string/title_partime</item>
+        <item>@string/title_contract</item>
+    </string-array>
+
+    <string-array name="work_shift">
+        <item>@string/title_day</item>
+        <item>@string/title_night</item>
+        <item>@string/title_both</item>
+    </string-array>
+
+    <string-array name="over_time">
+        <item>@string/title_noovertime</item>
+        <item>1 Hr</item>
+        <item>2 Hr</item>
+        <item>3 Hr</item>
+        <item>4 Hr</item>
+        <item>5 Hr</item>
+        <item>6 Hr</item>
+    </string-array>
+
+    <string-array name="interview_mode">
+        <item>@string/title_facetoface</item>
+        <item>@string/title_telephonic</item>
+    </string-array>
+
+    <string-array name="sex_type">
+        <item>@string/title_malesex</item>
+        <item>@string/title_femalesex</item>
+        <item>@string/title_othersex</item>
+    </string-array>
+
+
+    <string-array name="id_type">
+        <item>@string/title_aadhaarno</item>
+        <item>@string/title_electionno</item>
+        <item>@string/title_passportno</item>
+        <item>@string/title_panno</item>
+        <item>@string/title_drivinglic</item>
+        <item>@string/title_rationcardno</item>
+        <item>@string/title_nregacardno</item>
+        <item>@string/title_bankaccountno</item>
+        <item>@string/title_licpolicyno</item>
+        <item>@string/title_otheridno</item>
+    </string-array>
+
+    <array name="initial_slider_values">
+        <item>4000</item>
+        <item>10000</item>
+    </array>
+
+
+</resources>

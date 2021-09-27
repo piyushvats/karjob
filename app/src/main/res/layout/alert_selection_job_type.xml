@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+    <ScrollView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radioGroupjobcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+<!--                   <RadioButton
+                android:id="@+id/radioedu10th"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mybuttonbackground"
+                android:button="@android:color/transparent"
+                android:focusable="true"
+                android:text="@string/title_10th"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/radioedu12th"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mybuttonbackground"
+                android:button="@android:color/transparent"
+                android:focusable="true"
+                android:text="@string/title_12th"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/radioedugrad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mybuttonbackground"
+                android:button="@android:color/transparent"
+                android:focusable="true"
+                android:text="@string/title_gradu"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/radionoedu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/mybuttonbackground"
+                android:button="@android:color/transparent"
+                android:focusable="true"
+                android:text="@string/title_uneducated"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+-->
+        </RadioGroup>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--for Provider-->
+    <string name="app_name">Karigar Jobs</string>
+    <string name="app_splash_name">Karigar Job</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_email_phone">Phone</string>
+    <string name="prompt_userid">User ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">First Time</string>
+    <string name="action_forgot">Forgot Password?</string>
+    <string name="action_enterotp">Please enter OTP received</string>
+    <string name="action_verotp">Verify OTP</string>
+    <string name="action_enternwpwd">Enter new password</string>
+    <string name="action_submitpwd">Submit</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_shares">Share</string>
+    <string name="title_updatemobile">Enter your new mobile number</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_otp">OTP entered is wrong.Please try again.</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_gender_required">Please select your gender.</string>
+    <string name="error_mobile_req">Please check your mobile number.</string>
+    <string name="error_english_req">Please choose option for english language</string>
+    <string name="error_worlexp_req">Pleaseं choose option for work exp.</string>
+    <string name="error_edulevel_req">Please choose option about your education.</string>
+    <string name="erro_worktype_req">Please choose your interested jobs</string>
+    <string name="error_locpermission_req">Please provide permission to check your location.</string>
+    <string name="error_locationper_nogrant">Location permission not granted.</string>
+    <string name="error_locationper_grant">Location permission is granted.</string>
+    <string name="error_location_service">Please enable Location Service.</string>
+    <string name="title_note">Note</string>
+    <string name="err_try_again">Please close this app and try again.</string>
+    <string name="err_usrnoname">Please provide your name.</string>
+    <string name="title_editmobile">Update Phone Number</string>
+    <string name="title_modifypropic">Change Profile Photo</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="err_no_comp_profile">We do not found your company information.Please create company profile once from Company Profile option in menu.After that create job posts.</string>
+    <string name="error_no_usrprofupt">Information not submitted.Please verify your input detail and try again.</string>
+    <string name="error_no_compost">No previous job post</string>
+    <string name="err_create_comp_profile">Please fill company information for create job post!</string>
+
+    <string name="title_language_change">Select Language</string>
+
+    <string name="string_usrlan_en">English</string>
+    <string name="string_usrlan_hi">Hindi</string>
+    <string name="string_usropt">I want Work/Job</string>
+    <string name="string_provopt">I want worker for Company</string>
+    <string name="alert_compprofilecreate">Company profile created successfully.Now You can create new jobs</string>
+    <string name="alert_compprofileupdate">Company profile changed successfully.</string>
+    <string name="alertnewjobpost">Job created successfully.</string>
+    <string name="action_doc_info">Delete</string>
+    <string name="action_doc_book">View Applications</string>
+    <string name="title_fill_req">Fill Requirements</string>
+    <string name="title_fill_jobpost_req">Job Post Details</string>
+    <string name="title_jobtitle">Job Title</string>
+    <string name="hint_job_detail">Job Information and Requirements</string>
+    <string name="title_jobtype">Job Type</string>
+    <string name="title_jobvacency">Vacency</string>
+    <string name="title_jobloc">Location</string>
+    <string name="title_jobexpiry">Expiry</string>
+    <string name="title_jobworktype">Type of work</string>
+    <string name="title_jobworkshift">Work Shift</string>
+    <string name="title_jobworkot">Overtime Limit</string>
+    <string name="title_inter_time">Interview Time</string>
+    <string name="title_inter_mode">Interview Mode</string>
+    <string name="title_salary">Salary\n(monthly) </string>
+    <string name="title_salary_monthly">Salary(monthly) </string>
+    <string name="title_rupee_sym">\u20B9</string>
+    <string name="title_sal_min">Min</string>
+    <string name="title_sal_max">Max</string>
+    <string name="title_usr_submitinfo">Submit</string>
+    <string name="title_jobpost_date">Job Post Date</string>
+    <string name="title_comp_id">Company ID</string>
+    <string name="title_jobcategory">Job Category</string>
+    <string name="title_salaryrange">Salary Range</string>
+    <string name="title_view_job_app">View Job Applications</string>
+    <string name="title_comp_name_only">Company</string>
+    <string name="title_apply_job">Apply Job</string>
+    <string name="title_address">Address</string>
+    <string name="title_pincode">PinCode</string>
+    <string name="title_provname">Name</string>
+    <string name="title_contpername">Contect Person Name</string>
+    <string name="title_designation">Designation</string>
+    <string name="title_conperdesig">Contect Person\'s Designation</string>
+    <string name="title_conpermob">Contect Person\'s Mobile</string>
+    <string name="title_conpernameopt">Alt. Contect Name(optional)</string>
+    <string name="title_conperdesigopt">Alt. Person\'s Desig.(optional)</string>
+    <string name="title_conpermobopt">Alt. Mobile(optional)</string>
+    <string name="title_industry_type">Industry Type</string>
+    <string name="title_update">Update</string>
+
+    <string name="title_jobappl_usrlist">Resume received </string>
+
+    <string name="title_loginreg">Login Registration</string>
+    <string name="title_choose_loginid">Enter your Name/Email</string>
+    <string name="title_choose_mobileno">Enter your Mobile Number</string>
+    <string name="title_mobile">Mobile</string>
+    <string name="title_continue">Continue</string>
+
+
+    <string name="title_cominformation">Your Company Information</string>
+    <string name="title_com_info">Company Profile</string>
+    <string name="title_create_jobpost">Create Job Post</string>
+    <string name="title_communicate">Communicate</string>
+    <string name="title_sharelink">Share Link</string>
+    <string name="alert_jp_del">Are you sure for delete this job post ?</string>
+    <string name="alert_callpermission_denied">Call permission denied!</string>
+
+    <string name="title_benefits">Benefits</string>
+    <string name="title_sel_benefits">Select Job Benefits</string>
+    <string name="alert_no_jobapp_received">Info: No Job Application Recieved.</string>
+    <string name="action_jobpost_feedback">Submit Your Feedback</string>
+
+    <!--For User mode-->
+    <string name="title_activity_home">Karigar Jobs</string>
+    <string name="title_activity_prejpapl">Previous Applied Jobs</string>
+    <string name="title_editresume">Create/Edit Your Resume</string>
+    <string name="title_editresume_rec">Build Resume by Recording</string>
+    <string name="title_prvjobpostapp">Previous Job Applied</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Reload</string>
+    <string name="jobcat_filter">Show selected Job Category</string>
+    <string name="title_sel_jobcat">Select Job Category</string>
+    <string name="title_activity_home_u">Karigar Jobs</string>
+    <string name="title_jobpost_id">"JobPost ID: "</string>
+    <string name="dialog_fill_detail">Do you want to create your Resume?</string>
+    <string name="skip_launch">Skip</string>
+    <string name="yes_launch">Yes</string>
+    <string name="cv_info">Information</string>
+
+    <string name="action_jobpost_status">Status</string>
+    <string name="action_jobpost_detail">Job Detail</string>
+    <string name="app_version">App Version</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_status_processing">Processing</string>
+    <string name="err_fill_emptyfield">Required field(s) is/are empty.Please check the information</string>
+    <string name="err_please_enter_validotp">Please enter valid OTP.</string>
+    <string name="err_passwd_len_6char">Password length should be >6 character!</string>
+    <string name="err_check_mobile_number">Please check again mobile number entered!</string>
+    <string name="err_usr_profile_reterive">Error : Profile can\'t be reterived.Please check Internet Option.</string>
+    <string name="err_req_field_empty">Required field(s) is/are empty!</string>
+    <string name="err_usr_enter_value">Incorrect User ID ,mobile number or password is too short(>6).Please check enter value(s)!</string>
+    <string name="err_same_id">UserID is already registered!.Choose different ID</string>
+    <string name="err_loginupdate">User Login information not updated</string>
+    <string name="info_create_resume">Create your Resume</string>
+    <string name="title_job_post_id">Post ID: </string>
+    <string name="alert_create_cv_to_applyjob">Please create your Resume from option menu before apply job!</string>
+    <string name="alert_applyjob_success">Thank You.Job Applied successfully.Please contact to below information.</string>
+    <string name="alert_applyagainjob_success">Job Applied Already.Please contact to below information.</string>
+    <string name="alert_applyjob_info">Contact Information.</string>
+    <string name="title_jpapplied_dt">Job Applied Date </string>
+    <string name="title_jobname">Title </string>
+    <string name="err_check_file_perm_settings">Please provide file read/write access from Setting option and try again.</string>
+    <string name="alert_create_profile_jobpost">Please create Company profile before create job post.</string>
+
+    <string name="title_myapp_name">My application name</string>
+    <string name="info_appsuggest_msg">Let me recommend you this application</string>
+    <string name="info_choose">choose one</string>
+    <string name="alert_max3_comp">Max 6 type of company can add</string>
+    <string name="alert_dup_jobcat">Already added</string>
+
+    <string name="alert_add_valid_dob">Please enter valid Date of Birth"</string>
+    <string name="info_click_term_condition">Please select for Terms and Conditions</string>
+    <string name="info_now_can_apply_job">Your Resume/Profile is created!.Now you can apply for job(s)</string>
+    <string name="info_select">Select Action</string>
+    <string name="title_upload_document">Upload Documents</string>
+    <string name="title_edu_docs">Education Document(if any)</string>
+    <string name="title_idproof_docs">ID Proof(if any)</string>
+    <string name="title_selfpic">Your Photo</string>
+    <string name="info_usr_doc_note">Note: Your Documents can be access by company only for identification purpose in hiring process.</string>
+    <string name="info_term_condition">I Agree with Terms and Conditions</string>
+    <string name="title_final_submit">Finish and Submit(4/4)</string>
+
+    <string name="title_simplecvtitle">Create Resume</string>
+    <string name="title_yourname">Enter Your Name</string>
+    <string name="title_entermobile">Enter your Mobile Number</string>
+    <string name="title_inyear">Year</string>
+    <string name="title_lbl_canenglish">Do you know english language?</string>
+    <string name="title_canenglish">Can you read and speak english language?</string>
+    <string name="title_yes">Yes</string>
+    <string name="title_no">No</string>
+    <string name="title_back">Back</string>
+    <string name="title_lbl_expinfo">Do you have any work experience?</string>
+    <string name="title_expinfo">What type of work experience do you have?</string>
+    <string name="title_lbleduinfo">What is your highest education level?</string>
+    <string name="title_eduinfo">What is your highest education level?</string>
+    <string name="title_10th">10th or Lower</string>
+    <string name="title_12th">12th</string>
+    <string name="title_gradu">Graduate or Higher</string>
+    <string name="title_uneducated">Uneducated</string>
+    <string name="title_select_work_type">Choose your work type</string>
+
+
+    <string name="title_your_dateofbirth">Choose your date of birth</string>
+    <string name="title_user_curraddr">Enter your address</string>
+    <string name="title_usr_curraddrpin">Enter pincode</string>
+    <string name="title_usrmob">Enter your Mobile number</string>
+    <string name="title_idtype_select">Select your ID type</string>
+    <string name="title_idnum_enter">Enter selected ID number</string>
+
+    <string name="title_edu_detail">Education Detail</string>
+    <string name="title_deg_cou">Degree/Course</string>
+    <string name="title_subject">Subject detail</string>
+    <string name="title_deg_year">Completion Year</string>
+    <string name="title_collage_name">School/University</string>
+    <string name="info_add">Add/Update</string>
+    <string name="title_list_addededu">Added Education</string>
+    <string name="title_next">Next(3/4)</string>
+
+    <string name="title_exp_detail">Experience Detail</string>
+    <string name="title_comname">Company Name</string>
+    <string name="title_job_title">Job Title</string>
+    <string name="title_job_detail">Job Detail</string>
+    <string name="title_job_start_date">Start Date</string>
+    <string name="title_job_end_date">End Date</string>
+    <string name="title_add_update">Add/Update</string>
+    <string name="title_addedwork_exp">Added Work Experiences</string>
+    <string name="title_next_24">Next(2/4)</string>
+
+    <string name="title_your_age">Age</string>
+    <string name="title_your_profile">Your Profile</string>
+    <string name="title_date_of_birth">Date of Birth</string>
+    <string name="title_sex_type">Gender</string>
+    <string name="title_curr_addr">Current Addr.</string>
+    <string name="title_parman_addr">Paramanent Addr.</string>
+    <string name="title_alt_mobile">Alt Mobile</string>
+    <string name="title_idtype">ID Type</string>
+    <string name="title_idnum">ID Number</string>
+    <string name="title_cur_salary">Current Salary</string>
+    <string name="title_work_type">Work Type</string>
+    <string name="title_choose_work_type">Choose your work type</string>
+    <string name="title_list_work_type">Added Work type</string>
+    <string name="title_next_14">Next(1/4)</string>
+
+
+    <string name="title_fulltime">Full Time</string>
+    <string name="title_partime">Part Time</string>
+    <string name="title_contract">Contract</string>
+    <string name="title_day">Day</string>
+    <string name="title_night">Night</string>
+    <string name="title_both">Both</string>
+    <string name="title_noovertime">No Overtime</string>
+    <string name="title_facetoface">Face to Face</string>
+    <string name="title_telephonic">Telephonic</string>
+    <string name="title_malesex">Male</string>
+    <string name="title_femalesex">Female</string>
+    <string name="title_othersex">Other</string>
+    <string name="title_aadhaarno">Aadhaar No.</string>
+    <string name="title_electionno">Election Card No.</string>
+    <string name="title_passportno">Passport No.</string>
+    <string name="title_panno">PAN No.</string>
+    <string name="title_drivinglic">Driving Licence No.</string>
+    <string name="title_rationcardno">Ration Card No.</string>
+    <string name="title_nregacardno">NREGA Card No.</string>
+    <string name="title_bankaccountno">Bank Account No.</string>
+    <string name="title_licpolicyno">LIC Policy No.</string>
+    <string name="title_otheridno">Other ID</string>
+    <string name="alert_job_apl_lmt">Your Job application limit is 5 application per week.</string>
+    <string name="alert_job_apl_rpt">You already applied for this Job.</string>
+
+    <string name="title_usraccount_settings">Change Settings</string>
+
+    <string name="title_cvrecord_first">Create Resume</string>
+    <string name="title_cvrecord_sec">Resume -2</string>
+    <string name="title_cvrecord_thir">Resume - 3</string>
+    <string name="title_cvrecord_final">Finish</string>
+    <string name="title_cvrecord_cvdetail">Note : Click button and after carefully listen the question , speak answer</string>
+
+    <string name="title_whatisname">What is your name?</string>
+    <string name="title_whatisdob">What is your date of birth?</string>
+    <string name="title_whatisaddr">What is your address?</string>
+    <string name="title_whatismob">What is your mobile number?</string>
+    <string name="title_doyouhaveid">What ID do you have and What is the ID number ?</string>
+    <string name="title_typeofworksrch">What type of work you are searching ?</string>
+    <string name="title_plstellaboutwrkexp">Tell us about your work exp >> </string>
+    <string name="title_totalwrkexp">What is your total work experience ?</string>
+    <string name="title_prasenttcompname">What is your current company name ?</string>
+    <string name="title_yourworkincomp">What is your work in company ?</string>
+    <string name="title_whenyoustartwrkcomp">When did you started to work for this company?</string>
+    <string name="title_whereisyourcomp">Where is this company ?</string>
+    <string name="title_plstellaboutyouredu">Tell us about your education >> </string>
+    <string name="title_whatisyourhighedu">What is your highest education qualification?</string>
+    <string name="title_whatisyouredusubjuct">What were your main education subjects?</string>
+    <string name="title_whereisyourschool">Where is your school or college ?</string>
+    <string name="title_whenyoucpltedu">When did your education completed?</string>
+    <string name="title_uploadyourdocsnext">Upload your documents ->></string>
+    <string name="title_voicefinish_submit">Finish And Submit</string>
+
+    <string name="alert_aud_filecnt_min">Please answer the atleast 8 questions for make your profile.Thank You.</string>
+    <string name="alert_aud_filecnt_max">Please record your each answer within 20 sec limit.</string>
+    <string name="error_file_create_falied">Directory create fail.Please Check File Read/Write access.</string>
+    <string name="alert_no_data_available">No more information available!</string>
+    <string name="alert_cancel">Cancel</string>
+
+
+    <string name="title_listenanswer">Listen your answer</string>
+    <string name="title_startrecord">Press before answer</string>
+    <string name="title_verybad">Very Bad</string>
+    <string name="title_bad">Bad</string>
+    <string name="title_average">Average</string>
+    <string name="title_good">Good</string>
+    <string name="title_excellent">Very Good</string>
+    <string name="title_ratefeed">How do you rate this job post experience</string>
+    <string name="usr_jp_feedbk">Your Feedback</string>
+    <string name="title_expifany">Write your Job Post Feedback(if any)</string>
+
+    <string name="alert_network_connected">Network Connected</string>
+    <string name="alert_network_disconnected">Network disconnected.Please check the Network and try again.</string>
+    <string name="alert_create_cv_historyjob">No previous job history record is found!</string>
+    <string name="err_allcvprofileupd">Some problem happen during create Audio Resume.Please create Resume from "Edit Your Resume Option" in option menu</string>
+    <string name="alert_audiocv_submit_succ">Your CV Audio submitted successfully.Now you can apply for jobs.</string>
+    <string name="alert_cv_submit_succ">Your Bio-Data submitted successfully.Now you can apply for jobs.</string>
+    <string name="login_profile_update">Login profile updated! </string>
+    <string name="title_concall">Call Contact Person</string>
+
+</resources>

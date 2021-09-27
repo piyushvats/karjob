@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#246AC6</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccept">#43A047</color>
+    <color name="colorReject">#D81B1B</color>
+
+    <color name="backgrdstart">#FFFFFF</color>
+    <color name="backgrdend">#FFFFFF</color>
+    <color name="album_title">#4c4c4c</color>
+
+</resources>

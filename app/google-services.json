@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138871181410",
+    "project_id": "karigarjobs-5455a",
+    "storage_bucket": "karigarjobs-5455a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138871181410:android:71d64ba94d633bcb77013b",
+        "android_client_info": {
+          "package_name": "com.karigarjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138871181410-q5ob79cr5l1uu23233deh89d79tf2nlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1jaCfIy80M8vw69-P6cdh4eAhMLk0Nbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138871181410-q5ob79cr5l1uu23233deh89d79tf2nlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karigarjobs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".user.CompanyContactInfo"></activity>
+        <activity android:name=".user.cvbutton.UserCvCreateSimple" />
+        <activity android:name=".utils.PlayRecordAct" />
+        <activity android:name=".user.cvrecord.UserProfileCreateVoice" />
+        <activity android:name=".provider.SettingsProv" />
+        <activity android:name=".user.SettingsUser" />
+        <activity android:name=".provider.RegisterProvProfile" />
+        <activity android:name=".provider.JobPostCreateActivity" />
+        <activity android:name=".provider.ProvProfileInfo" />
+        <activity android:name=".provider.JobPostInform" />
+        <activity android:name=".user.UserProfileCreateActivity" />
+        <activity android:name=".user.JobPostInformUser" />
+        <activity android:name=".utils.CopyFiles" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user.HomeActivityU"
+            android:label="@string/title_activity_home_u"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".provider.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".utils.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".utils.KarJobFireBaseMsgService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

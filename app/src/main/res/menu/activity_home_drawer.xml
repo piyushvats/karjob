@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_dialog_info"
+            android:title="@string/title_com_info" />
+        <item
+            android:id="@+id/nav_newpost"
+            android:icon="@mipmap/ic_menu_edit"
+            android:title="@string/title_create_jobpost" />
+<!--        <item
+            android:id="@+id/nav_prepost"
+            android:icon="@mipmap/ic_menu_recent_history"
+            android:title="Previous Post" />
+        <item
+            android:id="@+id/nav_appget"
+            android:icon="@mipmap/ic_menu_allfriends"
+            android:title="Application Received" />-->
+        <item
+            android:id="@+id/nav_accsettings"
+            android:icon="@mipmap/ic_settings"
+            android:title="@string/title_settings" />
+
+    </group>
+
+    <item android:title="@string/title_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/title_sharelink" />
+        </menu>
+    </item>
+    <item android:title="@string/title_settings">
+        <menu>
+
+        </menu>
+    </item>
+    <item android:title="@string/app_version">
+        <menu>
+            <item
+                android:id="@+id/nav_appversion"
+                android:title="" />
+        </menu>
+    </item>
+
+
+</menu>

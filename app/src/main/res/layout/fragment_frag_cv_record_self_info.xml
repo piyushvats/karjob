@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".user.cvrecord.FragCvRecordSelfInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/title_cvrecord_first"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="@string/title_uploadyourdocsnext"
+            android:textAllCaps="false"
+            android:textColor="@color/backgrdstart"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="0dp"
+            android:background="?android:attr/listDivider" />
+
+
+
+        <Button
+            android:id="@+id/q_button1"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:text="@string/title_whatisname"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/q_button4"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_whatismob"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="visible"/>
+
+
+        <Button
+            android:id="@+id/q_button2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_whatisdob"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/q_button3"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="310dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_whatisaddr"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/q_button7"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_canenglish"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="visible"/>
+
+
+        <Button
+            android:id="@+id/q_button8"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="460dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_eduinfo"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/q_button9"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_expinfo"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/q_button6"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="610dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_typeofworksrch"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/q_button5"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="680dp"
+            android:background="@drawable/mybutton"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="@string/title_doyouhaveid"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="gone"/>
+
+
+
+        </RelativeLayout>
+   </ScrollView>
+
+
+</RelativeLayout>

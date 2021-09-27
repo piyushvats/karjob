@@ -1,0 +1,5 @@
+Karigar Jobs - 5.0 version
+Date : 23/06/2020
+Fixed issue :
+- Change Rest API.
+- Issue related to CV create.

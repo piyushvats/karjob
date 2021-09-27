@@ -1,0 +1,185 @@
+##############Date: 3 April 2021###############################
+Server version : 4.6
+- Update user/proc : /loginmob  API return otp value to bypass SMS msg verification method. no OTP verification.
+
+App Release  : 12.8
+ -Login OTP screen removed for user/prov.
+##############END###############################
+
+##############Date: 26 January 2021###############################
+Server version : 4.6
+- Add usrcallrec for User, for record timestamp of gsm call by user to prov
+
+App Release  : 12.7
+- Fixed User Job list Filter , List was not display properly after select job filter option .
+- Update Job Post card view display, <job id> : <job title> , salary range, work location then post date
+- Update Job Apply button, On click apply job post button , display Provider detail and calling button properly (also if already applied).
+##############END###############################
+
+##############Date: 16 October 2020###############################
+Server version : 4.5
+-
+
+App Release  : 12.6
+- Fixed Audio cv crash on submit
+- Fixed audio CV , Mobile button is not show green after record
+- Add Audio CV button show green after return from recording screen
+- User/Prov Settings , default mobile number shown in edit field.
+##############END###############################
+
+##############Date: 14 October 2020###############################
+Server version : 4.5
+-
+
+App Release  : 12.5
+- Fixed mobile number validity before submit at user and prov profile actrivity and  settings activity
+- Show Job Post detail , at job inform activity in place of job title.Also make it scrollable.
+##############END###############################
+##############Date: 5 October 2020###############################
+Server version : 4.5
+-
+
+App Release  : 12.4
+- Fixed Language Chnage issue.
+Finally i got solution for locate, In my case actually issue was with bundle apk because it split the locate files.
+In bundle apk by default all splits will be generated. but within the android block of your build.gradle file you are able to declare which splits will be generated.
+Added this inside the android block of app build.gradle
+bundle {
+    language {
+        enableSplit = false
+    }
+}
+##############END###############################
+
+##############Date: 1 October 2020###############################
+Server version : 4.5
+- Update DB
+alter table `user` add column `islaneng` int(11) unsigned DEFAULT NULL after `csalary`
+alter table `user` add column `isexp` int(11) unsigned DEFAULT NULL after `islaneng`
+alter table `user` add column `edulevel` int(11) unsigned DEFAULT NULL after `isexp`
+- Add API '/dev/submitusrcvsimple' in user/app.js
+- Chnage API '/dev/usraplhist' in user/app.js for query issue
+- Change API sendpushnotificationprv() in user/app/js for sql qury issue
+- Change API sendpushnotificationprv() in admin/app/js for sql query issue
+- Chnage API /web/getregrecpd in admin/app.js for query issue
+
+App Release  : 12.3
+- Update User Registration method
+- Add new screen for create CV
+
+
+##############END###############################
+
+
+##############Date: 13 August 2020###############################
+Server version : 4.4
+-
+
+App Release  : 12.2
+- Login Page is updated for user/Company
+##############END###############################
+##############Date: 11 August 2020###############################
+Server version : 4.4
+-
+
+App Release  : 12.1
+- Job Post UI update for provider
+- Job Post Apply UI updated for user
+
+
+##############END###############################
+##############Date: 3 August 2020###############################
+Server version : 4.4
+- modify push notification on user profile update
+- Fix send sms issue on registeration otp and job apply
+- addition of new login(loginmob) and otp verification(loginotmob) API as required for App login design change for both User and Provider
+- Update DB table user_login and prov_login for add column otpval and remove unique key loginkey
+   a) for login , every time user/prov install app, a new user id create and till app is not uninstall
+   b) User/Prov profile info retreval from login is removed-  as per user handling.- will add later after user level increase
+   c) Verified by mobile + otp on registration ans setting mobile update
+
+
+
+App Release  : 12.0
+- User/Prov , Registration Design updated
+  a)Every time app install by , new user id is created and persist till app not uninstall
+  b)Profile retrival from login time is removed, only registration as new user.As per user handling.- will add later after user level increase
+  c)Verified by mobile + otp on registration and setting mobile update  activity
+  d)Remove extra information field from user edit cv and audio cv activity.i.e alter mob,parmanent addr, pin
+  e)Remove extra information field from prov edit profile activity.i.e alternat contect name, mob , desgn
+- update push notification for receive payload data with message
+
+##############END###############################
+
+##############Date: 19 July 2020###############################
+Server version : 4.3
+-
+
+App Release  : 11.0
+- User  : After update Audio CV from admin , if user click edit resume option , app crash
+- User : Edit user cv not showing same industry type as last saved
+- User/Prov : Add Version label
+
+
+##############END###############################
+
+##############Date: 17 July 2020###############################
+Server version : 4.3
+- User/Provder : update user and provider /dev/updatetoken , do not update same token again.
+- Admin : For notifiy provider , sendpushnotificationprv() , if admin apply to job post from portal
+- User : Notify user on profile update by admin",
+- Admin : change admin folder path to inside version folder and update code accodingly for API i.e 4.3/admin/app.js
+
+App Release  : 10.0
+- User/Prov : storage+ contect permission dialog is not proper , make some long loop , fixed
+- User/Prov : Firebase tkn update optimized
+- User : Device Profile refresh after amdin update
+
+
+##############END###############################
+
+##############Date: 13 July2020###############################
+Server version : 4.2
+-
+
+App Release  : 9.0
+- User : search by job category added
+- User/Provider : language update issue fixed
+- User : Audio CV UI issue fixed
+- User/Provider : Login screen UI updated
+- User/Provider : Logging configured
+
+##############END###############################
+##############Date: 11 July 2020###############################
+Server version : 4.2
+-
+
+App Release  : 8.0
+- Provider Setting menu crash after return : fixed
+- User/Provider Settings menu alignment is not proper : fixed
+- User : User have audio CV , not able to apply job post : fixed
+- User : Add Filter for job list
+- Provider : New UI update for Salary RangeBar
+
+##############END###############################
+##############Date 30 July 2020###############################
+
+server version":"4.2",
+"date":"30 July 2020",
+"Add Features and Fixes": [
+"1. Upload audio and imae files",
+"2. SMS from admin to server",
+"3. optimize redundent user Rest API "
+
+app version":"6.0",
+ "date":"30 July 2020",
+ "Add Features and Fixes": [
+"1. Optimized send all file with data",
+"2. Add Progress Bar for Rest API",
+"3. Fix Recorder features"
+
+##############END###############################
+
+                                                                                                                                                                                          154,1         82%
+                                                                                                                                                                                          101,0-1       4
+                                                                                                                                                                                          1,1           

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+tools:context=".user.cvrecord.FragCvRecordExpInfo">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/textView_TitleExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/title_cvrecord_sec"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/listDivider" />
+
+
+<!--    <TextView
+        android:id="@+id/textView_TitleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="55dp"
+        android:text="@string/title_cvrecord_cvdetail"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />-->
+
+
+
+    <Button
+        android:id="@+id/q_button1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/mybutton"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/title_totalwrkexp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/q_button2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/mybutton"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/title_prasenttcompname"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/q_button3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/mybutton"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/title_yourworkincomp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+
+
+    <Button
+        android:id="@+id/q_button4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/mybutton"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/title_whenyoustartwrkcomp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/q_button5"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/mybutton"
+        android:focusable="true"
+        android:padding="10dp"
+        android:text="@string/title_whereisyourcomp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+
+
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/title_plstellaboutyouredu"
+        android:textAllCaps="false"
+        android:textColor="@color/backgrdstart"
+        android:textStyle="normal" />
+
+</RelativeLayout>
+</ScrollView>

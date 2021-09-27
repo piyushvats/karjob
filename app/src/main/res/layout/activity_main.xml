@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgrdstart"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@mipmap/splash"
+        android:layout_marginTop="0dp"
+        android:visibility="visible"/>
+
+    <RadioGroup
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:id="@+id/radio_lan_gp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="कृपया अपनी भाषा चुनें" />
+        <RadioButton
+            android:id="@+id/radio_lang_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="हिंदी" />
+
+        <RadioButton
+            android:id="@+id/radio_lang_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="English" />
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radio_isuseropt"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+
+        <RadioButton android:id="@+id/radio_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_usropt"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_prov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_provopt"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/registration_pg"
+        android:visibility="gone">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="25dp">
+
+            <EditText
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shape"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:hint="@string/title_choose_mobileno"
+                android:inputType="phone"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/backgrdstart"
+            android:textStyle="bold"
+            android:text="@string/action_sign_in_short"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="100dp"
+            android:textAllCaps="false"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/registration_pg2"
+        android:visibility="gone">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="25dp">
+
+            <EditText
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shape"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:hint="@string/action_enterotp"
+                android:inputType="phone"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:background="@drawable/mybutton"
+            android:textColor="@color/backgrdstart"
+            android:textStyle="bold"
+            android:text="@string/action_verotp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="100dp"
+            android:textAllCaps="false"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

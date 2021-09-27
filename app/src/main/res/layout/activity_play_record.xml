@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".utils.PlayRecordAct">
+
+
+    <RelativeLayout
+        android:id="@+id/all_record_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/album_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="Question"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/backdrop_title"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_play"
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="178dp"
+            android:background="@null"
+            android:maxWidth="80dp"
+            android:maxHeight="80dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/replaybutton" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="249dp"
+            android:layout_marginEnd="-1dp"
+            android:background="#246AC6" />
+
+        <RelativeLayout
+            android:id="@+id/record_layout"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/divider6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="-3dp"
+            android:visibility="visible">
+
+
+            <ImageButton
+                android:id="@+id/button_startrec"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="143dp"
+                android:layout_marginTop="126dp"
+                android:background="@null"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/recordbutton" />
+
+
+            <TextView
+                android:id="@+id/time_textview"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="00:00"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/backdrop_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/stop_start_title"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="229dp"
+                android:gravity="center"
+                android:singleLine="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/backdrop_title"
+                android:text="उत्तर देने या समाप्त करने के लिए बटन दबाएं"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/recplay_layout"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_below="@+id/divider6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="278dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="71dp"
+                android:gravity="center"
+                android:singleLine="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/backdrop_title"
+                android:text="अपना उत्तर सुनो"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/button_speakplay"
+                android:layout_width="54dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="150dp"
+                android:background="@null"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/speakplay" />
+
+
+            <ImageButton
+                android:id="@+id/cancel_btn"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/backgrdend"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/reject_ico" />
+
+            <ImageButton
+                android:id="@+id/accp_btn"
+                android:layout_width="220dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginBottom="0dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/backgrdend"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/accept_ico" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

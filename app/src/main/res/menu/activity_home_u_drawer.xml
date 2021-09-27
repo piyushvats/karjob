@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_editcv"
+            android:icon="@mipmap/ic_menu_edit"
+            android:title="@string/title_editresume" />
+        <item
+            android:id="@+id/nav_editcv_rec"
+            android:icon="@mipmap/micro_rec"
+            android:title="@string/title_editresume_rec" />
+        <item
+            android:id="@+id/nav_prvapp"
+            android:icon="@mipmap/ic_menu_recent_history"
+            android:title="@string/title_prvjobpostapp" />
+        <item
+            android:id="@+id/nav_accsettings"
+            android:icon="@mipmap/ic_settings"
+            android:title="@string/title_settings" />
+    </group>
+
+    <item android:title="@string/title_shares">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/title_shares" />
+        </menu>
+    </item>
+    <item android:title="@string/app_version">
+        <menu>
+            <item
+                android:id="@+id/nav_appversion"
+                android:title="" />
+        </menu>
+    </item>
+</menu>
